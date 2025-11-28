@@ -1,9 +1,10 @@
 #!/bin/sh
-set -e
+
 ---
 tittle: page
 ---
 
+``set -e
 # Docker Engine for Linux installation script.
 #
 # This script is intended as a convenient way to configure docker's package
