@@ -1,8 +1,4 @@
-^#!/bin/sh
----
-tittle: page
----
-
+#!/bin/sh 
 set -e
 # Docker Engine for Linux installation script.
 #
