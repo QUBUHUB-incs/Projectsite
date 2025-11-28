@@ -1,9 +1,8 @@
+#!/bin/sh
+set -e
 ---
 tittle: page
 ---
-
-`#!/bin/sh’
-set -e
 
 # Docker Engine for Linux installation script.
 #
@@ -723,3 +722,5 @@ do_install() {
 # wrapped up in a function so that we have some protection against only getting
 # half the file during "curl | sh"
 do_install
+```
+---
