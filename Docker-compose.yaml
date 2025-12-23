@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  auth:
+    image: auth-api
+    ports:
+      - "8000:8000"
+
+  products:
+    image: products-api
+    ports:
+      - "8080:8080"
+
+  client:
+    image: projectsite-client
+    ports:
+      - "3000:3000"
+    depends_on:
+      - auth
+      - products
