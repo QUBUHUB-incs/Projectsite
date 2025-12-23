@@ -1,0 +1,22 @@
+# Quickstart
+
+## Prerequisites
+
+- .NET 7+
+- Auth service running on `localhost:8000`
+- Products service running on `localhost:8080`
+
+---
+
+## Flow Overview
+
+1. Client authenticates against Auth API
+2. Auth API returns a JWT
+3. Client uses JWT to access protected endpoints
+
+---
+
+## Run the Client
+
+```bash
+dotnet run
