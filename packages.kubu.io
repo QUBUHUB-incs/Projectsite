@@ -6,7 +6,7 @@
 
     <!-- Official NuGet feed for stable packages -->
     <add key="NuGet.org" value="https://api.nuget.org/v3/index.json" />
-
+ 
     <!-- Xamarin nightly/CI feed for pre-release builds -->
     <add key="xamarin-ci" value="https://aka.ms/xf-nightly/index.json" />
 
